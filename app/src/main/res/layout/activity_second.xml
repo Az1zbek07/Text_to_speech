@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="10dp"
+    android:gravity="center"
     tools:context=".SecondActivity">
 
     <TextView
@@ -34,35 +35,5 @@
         android:layout_gravity="center"
         android:layout_marginTop="15dp"
         android:src="@drawable/ic_baseline_keyboard_voice_24" />
-
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="2dp"
-        android:layout_marginTop="25dp"
-        android:background="@color/black" />
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="60dp"
-        android:gravity="center"
-        android:text="Text to speech"
-        android:textColor="@color/black"
-        android:textSize="23sp" />
-
-    <EditText
-        android:id="@+id/editText"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
-        android:hint="Enter" />
-
-    <com.google.android.material.button.MaterialButton
-        android:id="@+id/btnSpeak"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginTop="50dp"
-        android:text="Speak out" />
 
 </LinearLayout>
